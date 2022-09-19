@@ -3,6 +3,7 @@
 #![feature(core_intrinsics)]     // <2>
 
 use core::intrinsics;            // <2>
+use core::arch::asm;
 use core::panic::PanicInfo;      // <3>
 
 #[panic_handler]
